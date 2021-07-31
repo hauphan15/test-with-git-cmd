@@ -1,8 +1,8 @@
-import express, { json, urlencoded } from 'express'
-import morgan from 'morgan'
+const express = require('express');
+const morgan = require('morgan');
 
 const app = express()
-app.use(json())
+app.use(express.json())
 app.use(morgan('dev'))
 app.use(urlencoded({
     extended: true
