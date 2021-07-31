@@ -1,10 +1,10 @@
-const express = require('express');
-const morgan = require('morgan');
+import express, { json, urlencoded } from 'express';
+import morgan from 'morgan';
 
 const app = express()
-app.use(express.json())
+app.use(json())
 app.use(morgan('dev'))
-app.use(express.urlencoded({
+app.use(urlencoded({
     extended: true
 }))
 
@@ -22,7 +22,7 @@ app.get('/employee-list', function(req, res) {
     res.send(list);
 })
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
     console.log(`API is running on port ${PORT}`);
 })
