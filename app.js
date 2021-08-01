@@ -22,7 +22,7 @@ app.get('/employee-list', function(req, res) {
     res.send(list);
 })
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 80;
 app.listen(PORT, () => {
     console.log(`API is running on port ${PORT}`);
 })
