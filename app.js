@@ -35,7 +35,8 @@ console.log('change border radius')
 console.log('i want to create another commit')
 console.log('colour should be black')
 console.log('dont need it anymore')
-
+console.log('it should be fine')
 
 console.log('main is good branch')
 console.log('king of branch')
+
