@@ -39,4 +39,5 @@ console.log('it should be fine')
 
 console.log('main is good branch')
 console.log('king of branch')
+console.log('master can do')
 
