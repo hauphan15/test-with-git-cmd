@@ -31,13 +31,11 @@ onsole.log('main branch perform some action here')
 
 
 console.log('this is the first commit after more than 5 months')
-
 console.log('change border radius')
-
 console.log('i want to create another commit')
-
 console.log('colour should be black')
+console.log('dont need it anymore')
+
 
 console.log('main is good branch')
-
 console.log('king of branch')
